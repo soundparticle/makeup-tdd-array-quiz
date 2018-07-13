@@ -6,7 +6,7 @@ describe('array method', () => {
         it('removes words that contain y or Y', () => {
             const words = ['sky', 'hot', 'Yeti', 'green'];
             
-            const newArr = filter(words)
+            const newArr = filter(words);
             assert.deepEqual(newArr, ['Is it hot? Is it green?']);
 
         });    
